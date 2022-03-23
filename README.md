@@ -2,6 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## `npm install`
+The fisrt thing which you need to do is to install node_modules with 
+
+
 In the project directory, you can run:
 
 ### `npm start`
@@ -11,6 +15,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+
+when the project start you need to see this ![image](https://user-images.githubusercontent.com/68399907/159694445-d20800f6-c224-47f9-aef9-c5920b500e77.png)
 
 ### `npm test`
 

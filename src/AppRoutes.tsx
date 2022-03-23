@@ -1,6 +1,4 @@
-import { Switch } from 'antd'
 import {
-    BrowserRouter,
     Routes,
     Route,
 } from "react-router-dom";

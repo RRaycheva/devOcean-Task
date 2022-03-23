@@ -1,17 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
 import { connect } from "react-redux";
-import { Business, TableData } from '../Interfaces/Interfaces';
+import { Business } from '../Interfaces/Interfaces';
 import './BusinessPage.css'
 import { address, contact, dontKnow, EAT, nearbyPlaces } from '../constants';
 
 interface BusinessPagesProps {
     businesses: Business[],
 
-}
-
-interface LocationState {
-    business: TableData
 }
 
 function BusinessPage(props: BusinessPagesProps) {
@@ -82,7 +78,7 @@ function BusinessPage(props: BusinessPagesProps) {
 
     return (
         <div className='businessPageWrap'>
-            <img className='businessImage' src={business.image} alt='business image' />
+            <img alt='business image' className='businessImage' src={business.image}/>
             <div className='subText'>
                 <div className='addressContactGroup'>
                     <div className='adressText'>

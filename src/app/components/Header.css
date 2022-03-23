@@ -1,0 +1,11 @@
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header .logoText{
+    font-weight: bold;
+    color: #4B77BE;
+    font-size: 100%;
+}

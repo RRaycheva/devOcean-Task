@@ -1,0 +1,54 @@
+.businessPageWrap{
+    margin-top: 2%;
+}
+
+.businessPageWrap .businessImage{
+    height: 400px;
+    width: 90%;
+}
+
+.businessPageWrap .subText{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+#subGroupText{
+    font-weight: 600;
+    font-size: 120%;
+}
+
+#gray{
+    color:#707070;
+}
+.businessPageWrap .subText .adressText{
+    padding-top: 3%;
+}
+.businessPageWrap .subText .contactText{
+    padding-top: 3%;
+}
+.businessPageWrap .subText .playcesText{
+    background-color: white;
+    padding: 3% 2% 3% 2%;
+    width: 100%;
+     
+    
+}
+.businessPageWrap .subText .playcesText .nearbyText{
+    justify-content: left;
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.businessPageWrap .subText .playcesText .nearbyPlacesSubText{
+    background: #F0F0F0;
+    padding: 3px 5px 3px 5px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.businessPageWrap .subText .addressContactGroup{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
